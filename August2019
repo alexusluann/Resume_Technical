@@ -1,0 +1,208 @@
+%-------------------------
+% Resume in Latex
+% Author : Alexus Ferguson taken from 
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+  
+
+
+\newcommand{\contactSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\contactSubItem}[2]{\contactItem{#1}{#2}\vspace{-4pt}}
+
+
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\contactSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\contactSubHeadingListEnd}{\end{itemize}}
+\newcommand{\contactItemListStart}{\begin{itemize}}
+\newcommand{\contactItemListEnd}{\end{itemize}\vspace{-5pt}}
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/alw3fk}{\Large Alexus L. Ferguson }} & 1309 Sand Wedge Ct. Chesapeake, VA 23320\\
+  \href{https://github.com/alexusluann}{https://github.com/alexusluann} & Mobile : +1-757-803-5296 \\ \href{}{} & alelu.ferguson@gmail.com
+\end{tabular*}
+
+%-------------------------------------------
+%-----------EDUCATION-----------------
+\section{Education}
+  
+
+    \resumeSubheading
+      {University of Virginia}{Charlottesville, VA}
+      {Bachelor's Degree,  Computer Science }{August 2019}
+        \resumeItemListStart
+        \resumeItem{Honors}
+            {Substantial Community Involvement Award by The 21 Society (May 2017); Top Cadet Award in outstanding performance by Virginia Military Institute (April 2017); Women’s Leadership Development Certification in Professional Development (March 2017)}
+        \newline
+      \resumeItemListEnd
+    \resumeSubheading
+      {International Baccalaureate Program, Oscar Smith High School}{Chesapeake, Virginia}
+      {Advanced High School Diploma; GPA: 4.3 }{June 2015}
+        \resumeItemListStart
+        \resumeItem{Honors}
+            {International Baccalaureate Diploma Recipient; National Honor Society Scholarship Recipient}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%--------COMPUTER SCIENCE SKILLS------------
+\section{Computer Science Skills}
+    \item{
+      \textbf{Languages}{: HTML, CSS, Python, Javascript, C++, SQL, Java, PHP
+      }
+      \hfill
+    \item{
+      \textbf{Operating Systems}{: HTML, CSS, Python, Javascript, C++, SQL, Java, PHP
+      }
+      \hfill
+    \item{
+      \textbf{???}{: qqq}
+      \hfill
+   }
+  \resumeSubHeadingListEnd
+    \newline
+%-----------EXPERIENCE-----------------
+\section{Experience}
+
+    \resumeSubheading
+      {Marva Simpson, ESQ. }{Charlottesville, VA}
+      {Caregiver}{August 2016 - May 2019}
+      \resumeItemListStart
+        \item[] 
+          {Care for client’s child, including feeding, homework tutoring, transport to and from school and activities. Provide other services, including pet care, phone screening, shopping, and bill pay. Organize and care for client’s home and property by maintaining and preparing for their arrival.}
+        \newline
+      \resumeItemListEnd
+   
+     \resumeSubheading
+      {Millers Energy}{Norfolk, VA}
+      {Information Technology Summer Intern}{May 2016 - August 2018}
+      \resumeItemListStart
+        \item[] 
+          {Helped implement company policies, technical procedures and standards for preserving the integrity and security of data, reports and access. Helped manage network security and filtering settings. Installed and configured software, hardware and provided help desk support needs. Diagnosed and corrected UNIX and Windows processing problems; recommended network improvements, design and integration solutions to help increase company work flow efficiency.}
+        \newline
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {University of Virginia School of Law}{Charlottesville, VA}
+      {Research Assistant}{October 2017 - May 2018}
+      \resumeItemListStart
+        \item[] 
+          {Wrote and edited data collection forms and questionnaires. Wrote and designed a website to share data and questionnaires with our users. Performed statistical, qualitative and quantitative analysis of the collected data. Documented procedures and results with a high degree of accuracy and precision. Presented results to supervisors. Worked with other principal investigators to coordinate qualitative research of latent fingerprint examination and biases of juries. Prepared materials for reports, presentations, and submission to peer-reviewed journal publications.}
+        \newline
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+    \resumeSubheading
+      {FIG Bistro and Bar}{Charlottesville, VA}
+      {Server and Hostess}{August 2017 - April 2018}
+      \resumeItemListStart
+        \item[] 
+          {Deliver friendly and efficient service to ensure a pleasant dining experience for all guests suggesting menu items and preparing specialty drinks according to corporate specifications. Manage other employees and their schedules when assigned. Manage hostess stand and team schedule. Resolve customer issues and complaints and relay this information to management during weekly meetings.}
+        \newline
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------Organizations-----------------
+\section{Organizations}
+    \resumeSubheading
+      {Madison House Volunteer Group}{Charlottesville, VA}
+      {Computer Literacy Trainer, Director}{September 2016 - May 2019}
+      \resumeItemListStart
+        \item[] 
+            {Madison House is a UVA-affiliated volunteer group that offers a variety of ways for students to give back to the Charlottesville community. My role at this organization began as a volunteer for the Charlottesville Work Force Center. I helped residents create resumes, draft emails, and learn technological skills such as basic computer handling and exploration of computer networks. I was also chosen as the Program Director for my volunteer group due to my outstanding work ethic and commitment to volunteering. As a director, I continued volunteering and served as a leader to communicate with, help, and motivate the other volunteers. I also served as a liaison between the Work Force Center and Madison House regarding logistics.}
+            \newline
+            \resumeItemListEnd}
+    \resumeSubHeadingListEnd
+    \resumeSubheading
+      {University Judiciary Committee}{Charlottesville, VA}
+      {Judge, Educator}{September 2015 - April 2019}
+      \resumeItemListStart
+        \item[] {The University Judiciary Committee serves as a student-run disciplinary organization for other students. In my first year, I was selected to be one of seven judges to hear trial cases, discuss, and vote on verdicts regarding my peers actions. I went on to serve as an ambassador for the committee and shared our philosophies with the entire college campus. I also took part in many outreach events and organized dialogues for current pressing issues in our community.}
+            \resumeItemListEnd}
+    \resumeSubHeadingListEnd
+%---------------------
+\newline
+
+
+%-------------------------------------------
+
+\end{document}
